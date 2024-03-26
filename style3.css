@@ -38,10 +38,14 @@ body {
   }
   
   #center {
+    display: flex;
+    justify-content: center; /* Aligning flex items in the center of the flex container */
   
   }
   
   #spacearound {
+    display: flex;
+    justify-content: space-around;/* Distributing flex items evenly along the main axis with equal space around them */
   
   }
   
