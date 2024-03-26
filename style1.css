@@ -24,7 +24,10 @@ body {
     width: 100px;
     border: 1px solid lightgrey;
   }
+
   /*Elements will be on same line*/
+  /* Setting the display property to flex to create a flex container */
+  
   #flex {
   display: flex ;
   }
