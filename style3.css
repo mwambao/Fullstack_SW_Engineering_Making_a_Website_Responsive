@@ -50,6 +50,7 @@ body {
   }
   
   #spacebetween {
-  
+    display: flex;
+    justify-content: space-between;/* Distributing flex items evenly along the main axis with space between them */
   }
   
