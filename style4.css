@@ -18,7 +18,7 @@ body {
   .left,
   .center,
   .right {
-    height: 75px;
+    min-height: 75px; /* Set minimum height to 75 pixels */
     width: 125px;
     background-color: dodgerblue;
     border: 2px solid lightgrey;
@@ -45,6 +45,6 @@ body {
   }
   
   #baseline {
-  
+    align-items: baseline; /* Aligning flex items along their baseline within the flex container */
   }
   
