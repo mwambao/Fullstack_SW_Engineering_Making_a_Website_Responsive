@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  .top,
+  .middle,
+  .bottom {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 2px solid lightgrey;
+    margin: 10px 30px;
+  }
+  
+  /*It applies the flex-shrink property to such elements, which determines how much they should shrink
+    relative to other flex items when there is not enough space in the flex container.
+    A value of 2 means this element will shrink twice as much as other flex items.*/
+  .top.side {
+    flex-shrink: 2; 
+  
+  }
+  
+  .top.center {
+  
+  }
+  
+  /* 
+   This CSS rule sets the flex-shrink property to 0.
+   It means that the element will not shrink when there is not enough space in the flex container.
+   Setting flex-shrink to 0 effectively prevents the element from shrinking to accommodate the available space.
+*/
+  .middle.side {
+    flex-shrink: 0;
+  
+  }
+  
+  .middle.center {
+  
+  }
+  
+  .bottom.side {
+  
+  }
+  
+  /* 
+   This CSS rule sets the flex-shrink property to 2.
+   It means that the element will shrink twice as much as other flex items when there is not enough space in the flex container.
+   A higher flex-shrink value indicates that the element is more willing to shrink compared to other flex items.
+*/
+  .bottom.center {
+     flex-shrink: 2; 
+  }
+  
+  #top,
+  #middle,
+  #bottom {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    min-height: 200px;
+    align-items: center;
+  }
+  
