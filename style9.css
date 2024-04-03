@@ -16,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     min-height: 125px;
+    justify-content: space-around; /* Distributing flex items evenly along the main axis with equal space around them */
   }
   
   .box {
@@ -26,17 +27,20 @@ body {
   }
   
   #wrap {
-    flex-wrap: wrap;
-  
+    flex-wrap: wrap; /* Allowing flex items to wrap onto multiple lines if needed */
   }
   
   #nowrap {
-    flex-wrap: nowrap;
-  
+    flex-wrap: nowrap; /* Forcing flex items to remain on a single line without wrapping */
   }
   
   #reverse {
-    flex-wrap: wrap-reverse;
-  
+    flex-wrap: wrap-reverse; /* Allowing flex items to wrap onto multiple lines in reverse order */
   }
+  
+  
+  
+  
+  
+  
   
